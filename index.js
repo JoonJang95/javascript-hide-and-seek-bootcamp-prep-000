@@ -43,5 +43,11 @@ function increaseRankBy(n) {
 }*/
 
 function deepestChild() {
+  var node = document.getElementById('grand-node')
+  var next = node.children[0]
   
+  while (next) {
+    node = next 
+    next = node.children[0]
+  }
 }
