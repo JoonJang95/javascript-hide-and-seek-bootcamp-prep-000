@@ -33,6 +33,6 @@ function deepestChild() {
       for (let i = 0; i < current.length; i++) {
       next.push(current[i])
     }
-    
+    current = next.shift
   }
 }
