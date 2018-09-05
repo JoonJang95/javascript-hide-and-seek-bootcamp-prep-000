@@ -26,12 +26,5 @@ function deepestChild() {
   
   
   return lis.innerHTML
-=======
-function increaseRankBy() {
-  const 
-}
 
-function deepestChild() {
->>>>>>> b5f8561f70c257f079b4297f7aa1bee62d9ef048
-  
 }
