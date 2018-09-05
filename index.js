@@ -25,7 +25,9 @@ function deepestChild() {
   }
   
   while (current) {
-    
+    if (current) {
+      return 
+    }
   }
 
 }
