@@ -36,10 +36,10 @@ function deepestChild() {
   }  
     current = next.shift()
     
+ }
     if (current.innerHTML === "boo!") {
       return current[0].innerHTML
     }
- }
 }
 
 /* function deepestChild() {
