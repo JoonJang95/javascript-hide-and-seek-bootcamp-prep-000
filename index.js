@@ -16,7 +16,7 @@ function increaseRankBy(n) {
   return hey
 }
 
-/*function deepestChild() {
+function deepestChild() {
   
   const lis = document.getElementById("grand-node").querySelectorAll("div")
   
@@ -36,13 +36,13 @@ function increaseRankBy(n) {
   }  
     current = next.shift()
     
-    if (current.innerHTML != undefined) {
+    if (current.innerHTML === "boo!") {
       return current[0].innerHTML
     }
  }
-}*/
+}
 
-function deepestChild() {
+/* function deepestChild() {
   var node = document.getElementById('grand-node')
   var next = node.children[0]
   
@@ -52,5 +52,6 @@ function deepestChild() {
   }
   return node 
 }
+*/
 
 /* Remember that the div's are all defined because they include the children div's */
