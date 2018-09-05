@@ -16,7 +16,7 @@ function increaseRankBy(n) {
   return hey
 }
 
-function deepestChild() {
+/*function deepestChild() {
   
   const lis = document.getElementById("grand-node").querySelectorAll("div")
   
@@ -40,4 +40,4 @@ function deepestChild() {
       return current[0].innerHTML
     }
  }
-}
+}*/
