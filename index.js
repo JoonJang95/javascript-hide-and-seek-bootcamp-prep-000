@@ -38,7 +38,7 @@ function deepestChild() {
     
  }
     if (current[0].innerHTML === "boo!") {
-      return current[0].innerHTML
+      return current
     }
 }
 
