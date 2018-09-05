@@ -50,4 +50,5 @@ function deepestChild() {
     node = next 
     next = node.children[0]
   }
+  return node 
 }
