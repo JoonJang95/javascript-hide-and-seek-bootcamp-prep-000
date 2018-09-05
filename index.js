@@ -6,7 +6,7 @@ function nestedTarget() {
   return document.querySelector(`div.target`)
 }
 
-<<<<<<< HEAD
+
 function increaseRankBy(n) {
   const hey = document.getElementById("app").querySelectorAll("ul.ranked-list li")
   
