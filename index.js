@@ -24,7 +24,5 @@ function deepestChild() {
     full.push(lis[i].innerHTML) 
   }
   
-  
-  return lis.innerHTML
 
 }
