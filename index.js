@@ -52,3 +52,5 @@ function deepestChild() {
   }
   return node 
 }
+
+/* Remember that the div's are all defined because they include the children div's */
