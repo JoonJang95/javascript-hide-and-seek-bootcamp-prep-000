@@ -29,16 +29,11 @@ function deepestChild() {
   
   while (current) {
     
-    if (Array.isArrayfor (let i = 0; i < current.length; i++) {
+    if (Array.isArray(current)) {
+    for (let i = 0; i < current.length; i++) {
       next.push(current[i])
     }
     
     
   }
-  
-    if (current === undefined) {
-      
-    }
-
-
 }
