@@ -16,33 +16,9 @@ function increaseRankBy(n) {
   return hey
 }
 
-function deepestChild() {
-  
-  const lis = document.getElementById("grand-node").querySelectorAll("div")
-  
-  var current = []
-  var next = []
-  
-  for (let i = 0; i < lis.length; i++) {
-   current.push(lis[i].innerHTML) 
-  }
-  
-  while (current) {
-    
-    if (Array.isArray(current)) {
-      for (let i = 0; i < current.length; i++) {
-      next.push(current[i])
-    }
-  }  
-    current = next.shift()
-    
- }
-    if (current[0].innerHTML === "boo!") {
-      return current
-    }
-}
 
-/* function deepestChild() {
+
+function deepestChild() {
   var node = document.getElementById('grand-node')
   var next = node.children[0]
   
@@ -52,6 +28,6 @@ function deepestChild() {
   }
   return node 
 }
-*/
+
 
 /* Remember that the div's are all defined because they include the children div's */
