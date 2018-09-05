@@ -24,10 +24,9 @@ function deepestChild() {
     current.push(lis[i].innerHTML) 
   }
   
-  while (current) {
     if (current) {
-      return 
+      return current
     }
-  }
+
 
 }
