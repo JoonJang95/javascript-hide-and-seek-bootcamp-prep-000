@@ -37,7 +37,7 @@ function deepestChild() {
     current = next.shift()
     
  }
-    if (current.innerHTML === "boo!") {
+    if (current[0].innerHTML === "boo!") {
       return current[0].innerHTML
     }
 }
