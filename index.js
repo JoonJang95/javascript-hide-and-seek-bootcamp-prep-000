@@ -36,9 +36,7 @@ function deepestChild() {
   }  
     current = next.shift()
     
-    if (current.innerHTML === undefined) {
-      return null
-    } else {
+    if (current.innerHTML != undefined) {
       return current[0].innerHTML
     }
  }
