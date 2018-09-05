@@ -6,6 +6,7 @@ function nestedTarget() {
   return document.querySelector(`div.target`)
 }
 
+
 function increaseRankBy(n) {
   const hey = document.getElementById("app").querySelectorAll("ul.ranked-list li")
   
@@ -15,15 +16,18 @@ function increaseRankBy(n) {
   return hey
 }
 
+
+
 function deepestChild() {
-  const lis = document.getElementById("grand-node").querySelectorAll("div")
-  var full = []
+  var node = document.getElementById('grand-node')
+  var next = node.children[0]
   
-  for (let i = 0; i < lis.length; i++) {
-    full.push(lis[i].innerHTML) 
+  while (next) {
+    node = next 
+    next = node.children[0]
   }
-  
-  
-  return lis.innerHTML
-  
+  return node 
 }
+
+
+/* Remember that the div's are all defined because they include the children div's */
