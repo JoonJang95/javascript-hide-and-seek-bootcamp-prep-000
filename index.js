@@ -29,7 +29,7 @@ function deepestChild() {
   
   while (current) {
     
-    for (let i = 0; i < current.length; i++) {
+    if (for (let i = 0; i < current.length; i++) {
       next.push(current[i])
     }
     
